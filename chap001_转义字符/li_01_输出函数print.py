@@ -11,25 +11,24 @@ print('hello world')
 print("hello hello")
 
 # 含有运算符的表达式
-print(3+1)
+print(3 + 1)
 
 # 将数据输出到文件中
-fp=open('F:\\PyCharmFiles\\yangshujuan_python\\chap001_转义字符\\text.txt','a+')  # a+ 的含义：如果不存在则新建文件，如果存在继续追加内容
+fp = open('E:\\PycharmProjects\\python_learning-main\\chap001_转义字符\\text.txt', 'a+')  # a+ 的含义：如果不存在则新建文件，如果存在继续追加内容
 # 注意文件路径中的 \ 要多加一个 \
 # 或者用 / 代替 \\
-print('hello world',file=fp)
+print('hello world', file=fp)
 fp.close()
 
 # 不换行输出
-print('hello','world','python')
+print('hello', 'world', 'python')
 
 # 字符串拼接，用+号
-print('hello'+'world')
+print('hello' + 'world')
 
 # print会默认换行输出
-print( '输出的内容' )  # 等价于 print('输出的内容', end="\n")
+print('输出的内容')  # 等价于 print('输出的内容', end="\n")
 
 # 改变Python换行输出
-print( '内容', end=" " )
-print( '内容', end="···" )
-
+print('内容', end=" ")
+print('内容', end="···")

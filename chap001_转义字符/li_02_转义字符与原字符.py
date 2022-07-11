@@ -4,10 +4,10 @@
 
 # 转义字符
 print('hello\nworld')  # 换行  n-->newline
-print('hello\tworld')  # 一个制表位占四个空格
+print('hello\tworld')  # 一个制表位占四个空格,从头开始四个空格是一个制表位
 print('hello123\tworld')
-print('hello\rworld')  # 回车  r-->return
-print('hello\bworld')  # 退回一格
+print('hello\rworld')  # 回车  r-->return  把\r前边的内容干没了
+print('hello\bworld')  # 退回一格，把 o 退没了
 print('http:\\www.baidu.com')
 print('老师说：\"大家好\"')  # 输出英文输入法状态下的双引号
 print('老师说：\'大家好\'')  # 输出英文输入法状态下的单引号
