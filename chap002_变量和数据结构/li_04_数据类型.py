@@ -38,8 +38,11 @@ print('-' * 30)
 # 布尔类型（与c++的不同点：可以转化为整数并进行计算）
 b1 = True
 b2 = False
+print(b1)
 print(b1 + 1, type(b1))  # 2
+print(b2)
 print(b2 + 1, type(b2))  # 1
+
 
 print('-' * 30)
 # 字符串类型

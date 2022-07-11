@@ -7,7 +7,7 @@ if 条件表达式:
     条件执行体
 """
 money = 1000
-take = int( input( '请输入取款金额：' ) )
+take = int(input('请输入取款金额：'))
 if money >= take:
     money -= take
-    print( '余额为：', money )
+    print('余额为：', money)

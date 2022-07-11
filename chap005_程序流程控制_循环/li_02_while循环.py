@@ -21,4 +21,4 @@ while i < 101:
     else:
         pass
     i += 1
-print( total )
+print(total)

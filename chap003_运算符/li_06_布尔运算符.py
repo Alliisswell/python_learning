@@ -7,6 +7,6 @@
 布尔运算符有：and, or, not, in, not in
 """
 s = 'hello world'
-print( 'h' in s )
-print( 'k' in s )
-print( 'k' not in s )
+print('h' in s)
+print('k' in s)
+print('k' not in s)

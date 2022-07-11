@@ -17,21 +17,21 @@ Python一切皆对象，所有对象都有一个布尔值
 
 其他所有对象的布尔值均为True
 """
-print( bool( False ) )
-print( bool(0) )
-print( bool(None) )
-print( bool('') )
-print( bool("") )
+print('1', bool(False))
+print('2', bool(0))
+print('3', bool(None))
+print('4', bool(''))
+print('5', bool(""))
+print('6', bool(''''''))
+print('7', bool(""""""))
 # 空列表
-print( bool([]) )
-print( bool(list()) )
+print('8', bool([]))
+print('9', bool(list()))
 # 空元组
-print( bool(()) )
-print( bool(tuple()) )
+print('10', bool(()))
+print('11', bool(tuple()))
 # 空字典
-print( bool({}) )
-print( bool(dict()) )
+print('12', bool({}))
+print('13', bool(dict()))
 # 空集合
-print( bool(set()) )
-
-
+print('14', bool(set()))

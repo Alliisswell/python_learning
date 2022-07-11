@@ -5,5 +5,10 @@
 lst = [98, 'hello', True]
 
 # 用内置函数list()
-lst2 = list( [98, 'hello', True] )
+lst2 = list([98, 'hello', True])
 
+# 空列表
+kong_list_1 = []
+kong_list_2 = list()
+print(kong_list_1)
+print(kong_list_2)

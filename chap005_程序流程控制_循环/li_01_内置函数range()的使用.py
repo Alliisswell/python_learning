@@ -11,19 +11,20 @@ range函数用于生成一个整数序列
 """
 # range( start, stop, step)函数的三种调用方式
 # 第一种，只有一个参数，默认从0开始，默认步长为1
-r1 = range( 10 )
-print( list( r1 ) )
+r1 = range(10)
+print(r1)  # 返回值是一个迭代器对象
+print(type(r1))
+print(list(r1))
 # 第二种，两个参数，默认步长为1
-# 第二种，两个参数，默认步长为1
-r2 = range( 1, 10 )
-print( list( r2 ) )
+r2 = range(1, 10)
+print(list(r2))
 # 第三种，三个参数
-r3 = range( 1, 10, 2 )
-print( list( r3 ) )
-print( 10 in r3 )
-print( 9 in r3 )
-print( 10 not in r3 )
-print( 9 not in r3 )
+r3 = range(1, 10, 2)
+print(list(r3))
+print(10 in r3)
+print(9 in r3)
+print(10 not in r3)
+print(9 not in r3)
 
-print( range( 1, 20 ) )  # [1,,,19]
-print( range( 1, 101 ) )  # [1,,,100]
+print(range(1, 20))  # [1,,,19]
+print(range(1, 101))  # [1,,,100]

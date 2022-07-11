@@ -6,17 +6,17 @@ name = '张三'
 age = 20
 
 print(type(name), type(age))
-# print('我叫' + name + '今年' + age + '岁')  # 当颈str类型与int类型进行转换时，报错，解决方案，类型转换
+# print('我叫' + name + '今年' + age + '岁')  # 当将str类型与int类型进行转换时，报错，解决方案，类型转换
 print('我叫' + name + '，今年' + str(age) + '岁')  # 通过str()函数将int类型转换为str类型、
 print(type(str(age)))  # 查看转换后的数据类型
 print(type(age))
 
 print('-----用str()函数转换其他数据类型-----')
-a=10
-b=198.8
-c=False
-print(type(a),type(b),type(c))
-print(str(a), str(b), str(c),type(str(a)), type(str(b)), type(str(c)))
+a = 10
+b = 198.8
+c = False
+print(type(a), type(b), type(c))
+print(str(a), str(b), str(c), type(str(a)), type(str(b)), type(str(c)))
 
 # print('-----用int()函数转换其他数据类型-----')
 # s1='128'
@@ -40,19 +40,19 @@ print(str(a), str(b), str(c),type(str(a)), type(str(b)), type(str(c)))
 '''
 
 print('-----用float()函数转换其他数据类型-----')
-i=98
-s1='128'
-s2='76.77'
-s3='hello'
-s4='你好'
-b1=True
-print(type(i),type(s1),type(s2),type(s3),type(b1),)
-print(float(i),type(float(i)))
-print(float(s1),type(float(s1)))
-print(float(s2),type(float(s2)))
+i = 98
+s1 = '128'
+s2 = '76.77'
+s3 = 'hello'
+s4 = '你好'
+b1 = True
+print(type(i), type(s1), type(s2), type(s3), type(b1), )
+print(float(i), type(float(i)))
+print(float(s1), type(float(s1)))
+print(float(s2), type(float(s2)))
 # print(float(s3),type(float(s3)))
 # print(float(s4),type(float(s4)))
-print(float(b1),type(float(b1)))
+print(float(b1), type(float(b1)))
 '''
 总结：
 转换整型时，会加.0

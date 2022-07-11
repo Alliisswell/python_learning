@@ -9,8 +9,8 @@ else:
     条件执行体2
 """
 # 输入一个整数，判断奇偶性
-num = int( input( '请输入一个整数：' ) )
+num = int(input('请输入一个整数：'))
 if num % 2 == 0:
-    print( '偶数' )
+    print('偶数')
 else:
-    print( '奇数' )
+    print('奇数')
