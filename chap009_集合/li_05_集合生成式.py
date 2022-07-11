@@ -4,5 +4,7 @@
 
 # 集合生成式和列表生成式很接近
 
-set1 = {i * i for i in range( 1, 11 )}
-print( set1 )
+set1 = {i * i for i in range(1, 11)}
+set2 = set(i * i for i in range(1, 11))
+print(set1)
+print(set2)
