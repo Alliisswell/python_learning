@@ -40,7 +40,6 @@ stu2 = Student('李四', 30)
 stu2.cm()
 
 # 通过实例访问静态属性
-
 stu3 = Student('王五', 40)
 stu4 = Student('麻子', 50)
 print(stu3.native_pace)
