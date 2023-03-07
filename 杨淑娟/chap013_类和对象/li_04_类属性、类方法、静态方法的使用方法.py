@@ -4,7 +4,8 @@
 # 分隔工具：print('*' * 5, '', '*' * 5)
 
 class Student:
-    native_pace = '吉林'  # 直接写在类里的变量，称为属性
+    # 静态属性
+    native_pace = '吉林'  # 直接写在类里的变量，称为类的静态属性
 
     # 初始化方法
     def __init__(self, name, age):  # name,age为实例属性
@@ -26,12 +27,12 @@ class Student:
         print('我使用了classmethod进行修饰，所以我是类方法')
 
 
-# 类属性的使用方法
-# print( Student.native_pace )  # 访问类属性
+# 通过实例访问静态属性
 stu1 = Student('张三', 20)
 stu2 = Student('李四', 30)
 print(stu1.native_pace)
 print(stu2.native_pace)
+# 通过类修改静态属性
 Student.native_pace = '天津'
 print(stu1.native_pace)
 print(stu2.native_pace)
@@ -43,3 +44,4 @@ Student.sm()
 # 类方法的调用
 print('*' * 5, '调用类方法', '*' * 5)
 Student.cm()
+stu1.cm()
