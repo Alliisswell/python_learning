@@ -10,8 +10,8 @@
 """
 
 
-def fun2(**args):
-    print(args)
+def fun2(**kwargs):
+    print(kwargs)
 
 
 fun2(a=10)
@@ -26,13 +26,13 @@ fun2(a=10, b=20, c=30)
 
 
 # 2、函数定义时，如果仅定义有个数可变的关键字形参，只能定义一个
-# def fun4(**args1,**args2):
+# def fun4(**kwargs1,**kwargs2):
 #     pass
 
 
 # 3、函数定义时，如果既有个数可变的位置形参，又有个数可变的关键字形参，那么只能一种一个，并且位置形参在前，关键字形参在后
-def fun5(*argsa, **argsb):
-    pass
+# def fun5(*args, **kwargs):
+#     pass
 
-# def fun5(**argsa, *argsb):
+# def fun5(**kwargs, *args):
 #     pass
