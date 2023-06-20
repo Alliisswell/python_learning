@@ -39,13 +39,13 @@ fun2(**dic)
 """函数定义时，形参的顺序"""
 
 
-def fun3(a, b, *, c, d, **agrsb):
+def fun3(a, b, *, c, d, **kwargs):
     pass
 
 
-def fun4(*agrsa, **agrsb):
+def fun4(*args, **kwargs):
     pass
 
 
-def fun5(a, b=10, *agrsa, c, **agrsb):
+def fun5(a, b=10, *args, c, **kwargs):
     pass
